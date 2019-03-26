@@ -19,3 +19,4 @@ Status ListDdlete_L(Linklist &L,ElemType mink,ElemType maxk)
     }
     return OK;
 }
+//时间复杂度O(n)
