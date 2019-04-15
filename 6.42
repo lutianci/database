@@ -1,0 +1,9 @@
+Status POLeatfNodeNum(int &i,BiTree& T)
+{
+    if(T){
+        (!T->lchild&&!T->rchild) i++;
+        POLeatfNodeNum(i,T->lchild);
+        POLeatfNodeNum(i,T->rchild);
+    }
+    return OK;
+}
